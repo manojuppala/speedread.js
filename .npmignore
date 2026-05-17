@@ -1,0 +1,30 @@
+# Git files
+.git
+.gitignore
+
+# Development files
+yarn.lock
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# CI/CD
+.github
+.travis.yml
+.gitlab-ci.yml
+
+# Documentation (keep README.md)
+docs/
+
+# Tests (if any)
+*.test.js
+test/
+coverage/

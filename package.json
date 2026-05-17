@@ -1,0 +1,46 @@
+{
+  "name": "speedread",
+  "version": "1.0.2",
+  "description": "A simple terminal-based open source Spritz-alike for speed reading",
+  "main": "speedread.js",
+  "bin": {
+    "speedread": "./speedread"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "speedread",
+    "rsvp",
+    "speed-reading",
+    "terminal",
+    "cli",
+    "reading",
+    "productivity",
+    "focus",
+    "rapid-serial-visual-presentation"
+  ],
+  "author": "Manoj Uppala <uppala0863@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojuppala/speedread.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manojuppala/speedread/issues"
+  },
+  "homepage": "https://github.com/manojuppala/speedread#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "speedread.js",
+    "speedread",
+    "test.txt",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
